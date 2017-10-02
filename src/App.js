@@ -2,14 +2,14 @@ import React, { Component } from 'react';
 import './App.css';
 
 //components
-import Test from './components/Test'
+import Counter from './components/Counter'
 
 class App extends Component {
   render() {
     return (
       <div>
         Hello world!<br/>
-        <Test />
+        <Counter />
       </div>
     );
   }
